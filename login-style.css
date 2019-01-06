@@ -1,0 +1,125 @@
+.log-body
+{
+	margin: 0;
+	padding: 0;
+	background: url(img/user/log.jpg);
+	background-size: cover;
+	font-family: sans-serif;
+}
+.my-btn{
+	display: inline-block;
+	text-align: center;
+	border: none;
+	outline: none;
+	height: 40px;
+	width: 100%;
+	color: #02faff;
+	font-size: 14px;
+	font-weight: bold;
+	background: rgba(89, 152, 163, 0.8);
+	cursor: pointer;
+	border-radius: 10px;
+}
+.my-btn:hover{
+	background-color:rgba(0, 255, 221, 0.7);
+	color: #78002b;
+}
+.log-title{
+	position: absolute;
+	font-size: 22px;
+	color: #0fdaae;
+	font-weight: bold;
+	top: 5%;
+	left: 37%;
+	text-align: center;
+	font-family: sans-serif;
+}
+.loginBox
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+	height: 420px;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	background: rgba(15, 130, 165, 0.6);
+}
+h2
+{
+	margin: 0;
+	font-size: 22px;
+	color: #00e264;
+	text-align: center;
+}
+.loginBox p
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #36ff04;
+}
+.loginBox input
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.loginBox input[type="email"],
+.loginBox input[type="password"],
+.loginBox input[type="text"]
+{
+	border: none;
+	border-bottom: 1px solid #ffffff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #ffffff;
+	font-size: 16px;
+}
+::placeholder
+{
+	color: rgba(255, 255, 255, 0.5);
+}
+.loginBox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #8b4d4d;
+	font-size: 14px;
+	font-weight: bold;
+	background: rgba(206, 156, 198, 0.7);
+	cursor: pointer;
+	border-radius: 10px;
+}
+.loginBox input[type="submit"]:hover
+{
+	background: rgba(20, 227, 54, 0.6);
+	color: #ffffff;
+}
+.loginBox input[type="sign"]
+{
+	text-align: center;
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #bc0c59;
+	font-size: 14px;
+	font-weight: bold;
+	background: rgba(123, 233, 38, 0.8);
+	cursor: pointer;
+	border-radius: 10px;
+}
+.loginBox input[type="sign"]:hover
+{
+	background: rgba(0, 119, 255, 0.616);
+	color: #93ec13;
+}
+.loginBox a
+{
+	color: #78002b;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+}
