@@ -1,6 +1,6 @@
 # Catering Service #
 
 **OPTION**;
-* WEDDING.
-* BIRTDAYE.
-* MEETING.
+* WEDDING
+* BIRTDAYE
+* MEETING
